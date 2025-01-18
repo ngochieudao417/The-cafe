@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- inconsolata font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assests/main.css">
+    <link rel="stylesheet" href="/assests/base.css">
+    <link rel="stylesheet" href="../resetcss/reset.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#content__introduction" class="header__navbar-item-link">HOME</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#content__about-wrapper" class="header__navbar-item-link">ABOUT</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#content__about-menu-wrapper" class="header__navbar-item-link">MENU</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#content__about-place-wrapper" class="header__navbar-item-link">WHERE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div id="content__introduction">
+                <div class="content__intro-background">
+                    <img src="/assests/img/coffeehouse.jpg" alt="" class="content__intro-img">
+                    <div class="content__intro-title">
+                        the cafe
+                    </div>
+                    <div class="content__intro-time">Open from 6am to 5pm</div>
+                </div>
+            </div>
+            <div id="content__about-wrapper">
+                <div class="content__about-section content__section">
+                    <div class="content__about-title content__title">
+                        <h3>
+                            <span>ABOUT THE CAFE</span>
+                        </h3>
+                    </div>
+                    <div class="content__about-description">
+                        <p class="content__about-para content__about-para--spacing">
+                            The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="content__about-para">
+                            In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+                        </p>
+                        <div class="content__about-italic-description content__about-para--spacing">
+                            <p class="content__about-italic-para content__about-para--spacing">
+                                "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+                            </p>
+                            <p class="content__about-italic-para content__about-para--spacing">
+                                Chef, Coffeeist and Owner: Liam Brown
+                            </p>
+                        </div>
+                        <div class="content__about-cafe-pic">
+                            <img class="content__about-image" src="/assests/img/about-coffee-shop.jpg" alt="">
+                        </div>
+                        <div class="content__about-cafe-info">
+                            <p class="content__about-cafe-description content__about-para--spacing">
+                                Opening hours: everyday from 6am to 5pm.
+                            </p>
+                            <p class="content__about-cafe-description content__about-para--spacing">
+                                Address: 15 Adr street, 5015, NY
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <div id="content__about-menu-wrapper">
+                <div class="content__about-menu content__section">
+                    <div class="content__menu-title content__title">
+                        <h3>
+                            <span>ABOUT THE MENU </span>
+                        </h3>
+                    </div>
+                    <div class="content__menu-selection">
+                        <div class="content__menu-navbar">
+                            <button class="content__menu-button js-menu-eat-button">
+                                Eat
+                            </button>
+                            <button class="content__menu-button js-menu-drink-button">
+                                Drink   
+                            </button>
+                        </div>
+                        <div class="content__menu-description content__menu-food--activated ">
+                            <h4 class="content__menu-heading">Bread Basket</h4>
+                            <p class="content__menu-name">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                            <br>
+                            <h4 class="content__menu-heading">Honey Almond Granola with Fruits</h4>
+                            <p class="content__menu-name">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                            <br>
+                            <h4 class="content__menu-heading">Belgian Waffle</h4>
+                            <p class="content__menu-name">Vanilla flavored batter with malted flour 7.50</p>
+                            <br>
+                            <h4 class="content__menu-heading">Scrambled eggs</h4>
+                            <p class="content__menu-name">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                            <br>
+                            <h4 class="content__menu-heading">Blueberry Pancakes</h4>
+                            <p class="content__menu-name">With syrup, butter and lots of berries 8.50</p>
+                            <br>
+                        </div>
+                        <div class="content__menu-description content__menu-drink--activated content__menu--closed">
+                            <h4 class="content__menu-heading">Coffee</h4>
+                            <p class="content__menu-name">Regular coffee 2.50</p>
+                            <br>
+                            <h4 class="content__menu-heading">Chocolato</h4>
+                            <p class="content__menu-name">Chocolate espresso with milk 4.50</p>
+                            <br>
+                            <h4 class="content__menu-heading">Corretto</h4>
+                            <p class="content__menu-name">Whiskey and coffee 5.00</p>
+                            <br>
+                            <h4 class="content__menu-heading">Iced tea</h4>
+                            <p class="content__menu-name">Hot tea, except not hot 3.00</p>
+                            <br>
+                            <h4 class="content__menu-heading">Soda</h4>
+                            <p class="content__menu-name">Coke, Sprite, Fanta, etc. 2.50</p>
+                            <br>
+                        </div>
+                        <div class="content__about-menu-photos">
+                            <img src="/assests/img/about-menu.jpg" alt="" class="content__menu-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content__about-place-wrapper">
+                <div class="content__place content__section">
+                    <div class="content__about-title content__title">
+                        <h3>
+                            <span>WHERE TO FIND US</span>
+                        </h3>
+                    </div>
+                    <p class="content__place-suggestion">Find us at some address at some place.</p>
+                    <img src="/assests/img/place.jpg" alt="" class="content-place-image">
+                    <p class="content__place-fyi-description">
+                        <span class="content__place-fyi">FYI!</span>
+                        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+                    </p>
+                    <p class="content__place-fyi-description">
+                        <b>Reserve</b> a table, ask for today's special or just send us a message:
+                    </p>
+                    <form action="" class="content__place-message-form">
+                        <input type="text" class="content__place-form-input" placeholder="Name" required>
+                        <input type="number" class="content__place-form-input" placeholder="How many people" min="1" required>
+                        <input type="date" class="content__place-form-input"required>
+                        <input type="text" class="content__place-form-input" placeholder="Message / special requirements" required>   
+                        <input type="submit" value="SEND MESSAGE" class="content__submit-button">
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="footer__powered">Made by Ngokhieuwu</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    const eatButton = document.querySelector('.js-menu-eat-button')
+    const drinkButton = document.querySelector('.js-menu-drink-button')
+    const eatMenu = document.querySelector('.content__menu-food--activated')
+    const drinkMenu = document.querySelector('.content__menu-drink--activated')
+    function eatDisplay() {
+        eatMenu.classList.remove('content__menu--closed')
+        drinkMenu.classList.add('content__menu--closed')
+    }
+    function drinkDisplay() {
+        eatMenu.classList.add('content__menu--closed')
+        drinkMenu.classList.remove('content__menu--closed')
+    }
+    eatButton.addEventListener('click', eatDisplay)
+    drinkButton.addEventListener('click', drinkDisplay)
+</script>

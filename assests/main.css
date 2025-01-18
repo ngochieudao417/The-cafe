@@ -1,0 +1,237 @@
+/* header */
+.header {
+    height: 54.5px;
+    background-color: var(--black-color);
+    position: fixed ;
+    z-index: 1;
+}
+
+/* navigation */
+.header__navbar {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    height: 100%;
+}
+
+.header__navbar-list {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+.header__navbar-item {
+    width: 25vw;
+    text-align: center;
+    height: 100%;
+    line-height: 1rem;
+    padding: 8px 16px;
+}
+
+.header__navbar-item:hover {
+    background-color: #ccc;
+    
+}
+
+.header__navbar-item-link {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* content */
+
+/* introduction */
+
+.content__intro-background {
+    position: relative;
+}
+
+.content__intro-img {
+    width: 100%;
+
+}
+
+.content__intro-title {
+    color: var(--white-color);
+    top: 50%;
+    font-size: 9rem;
+    left: 33.333%;
+    position: absolute; 
+    top: 50%;
+    font-size: 9rem;
+    left: 33.333%;
+}
+
+.content__intro-time {
+    top:94%;
+    left:4%;
+    font-size: 1.5rem;
+    padding: 4px 12px;
+    position: absolute;
+    display: block;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}   
+/* css chung cho cac section, heading */
+    .content__section {
+        border-top: 1px solid #ccc;
+        font-size: 18px;
+        max-width: 700px;
+        margin: auto auto;
+    }
+.content__title h3 {
+    text-align: center;
+}
+.content__title {
+    padding: 64px 0;
+}
+
+.content__title span {
+    font-weight: 500;
+    letter-spacing: 4px;
+    padding: 4px;
+    color: white;
+    background-color: var(--black-color);
+}
+
+
+/* about section */ 
+
+.content__about-para--spacing {
+    margin: 18px 0;
+    line-height: 28px;
+}
+
+.content__about-description {
+ 
+    margin: 18px 0;
+    line-height: 28px;
+}
+
+
+.content__about-italic-description {
+    background-color: #f1f1f1;
+    font-style: italic;
+    border-left: 4px solid #ccc;
+}
+
+
+.content__about-image {
+    width: 100%;
+}
+
+/* about menu section */
+.content__about-menu--title {
+    padding: 64px 0;
+}
+
+.content__about-menu {
+    font-size: 18px;
+}
+
+.content__menu-navbar {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    height: 45px;
+}
+
+.content__menu-button:hover {
+    color: var(--white-color);
+    background-color: #616161;
+}
+
+.content__menu-button {
+    cursor: pointer;
+    height: inherit;
+    border: none;
+    background-color: var(--white-color);
+    width: calc(98%/2);
+    font-size: 18px;
+}
+
+.content__menu-description {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 16px 48px;
+}
+
+
+.content__menu-heading {
+    padding: 18px;
+}
+
+.content__menu-name {
+    padding: 12px;   
+    opacity: 0.7; 
+}
+
+.content__about-menu-photos {
+    padding: 64px 0;
+}
+
+.content__menu-image {
+    width: 100%;
+}
+
+/* hien menu food or drink */
+.content__menu--closed {
+    display: none;
+}
+
+/* place section */
+
+.content__place-suggestion {
+    padding: 16px 0;
+}
+
+.content-place-image {
+    padding: 16px 0;
+    width: 100%;
+}
+
+.content__place-fyi {
+  padding: 8px;
+  background-color: #000;
+  color: white;
+  display: inline-block;
+}
+
+.content__place-fyi-description {
+    line-height: 1.4;
+    padding: 24px 0;
+}
+
+.content__place-form-input {
+    font-size: 1.8rem;
+    padding: 12px;
+    width: 100%;
+    margin: 12px 0;
+    height: 60px;
+}
+
+.content__submit-button {
+  border: none;
+  color: white;
+  background-color: var(--black-color);
+  padding: 16px 32px;
+}
+
+.content__submit-button:hover {
+    background-color: #ccc;
+    color: var(--black-color);
+}
+
+/* footer */
+.footer {
+    margin-top: 42px;
+    display: flex;
+    background-color: #F2f2f2;
+    height: 120px;
+    font-size: 1.8rem;
+    align-items: center;
+
+}
+
+.footer__powered {
+    margin: auto;
+}

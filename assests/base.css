@@ -1,0 +1,21 @@
+:root {
+   --black-color: #000;
+   --grey-color: #ccc;
+   --white-color: #fff;
+}
+
+* {
+    width: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+/* mac dinh font-size 100% la 16px */
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem; /* la 16px */
+    font-family: "Inconsolata", sans-serif;
+    box-sizing: border-box;
+}
